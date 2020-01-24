@@ -18,23 +18,11 @@ WTW (Wednesday Tokyo Whoopers) の有志の皆様のご協力で、NFE_Silverwar
 
 
 
-## クレジット (Credits)
-
-テスト飛行に協力いただきました、WTW参加の皆様に感謝致します。
- * Julyさん、増谷さん、松元さん、ジセイさん、深海さん、山口さん、Moccaさん、陰山さん
-
-その時の様子はこちら  
-https://youtu.be/FCqBhdlICu4
-
-
-また、mixiドローン友の会:Silverwareトピックと、その住人の皆様に感謝致します。
- * bedroom-flyer(BDrF)さん、Hittoさん、多くの先人な皆様
-
-
 ## ファームウェアダウンロード (Firmware Download)
 
 最新ファームウェアのダウンロードは【Release】タブへ移動してください。  
 https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
+
 
 
 ## パラメータについて (config.h)
@@ -68,4 +56,18 @@ https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
 > #define IDLE_THR 0.04f  
 > #define ACTUAL_BATTERY_VOLTAGE 4.35  
 > #define REPORTED_TELEMETRY_VOLTAGE 4.35  
+
+
+
+## クレジット (Credits)
+
+テスト飛行に協力いただきました、WTW参加の皆様に感謝致します。
+ * Julyさん、増谷さん、松元さん、ジセイさん、深海さん、山口さん、Moccaさん、陰山さん
+
+その時の様子はこちら  
+https://youtu.be/FCqBhdlICu4
+
+
+また、mixiドローン友の会:Silverwareトピックと、その住人の皆様に感謝致します。
+ * bedroom-flyer(BDrF)さん、Hittoさん、多くの先人な皆様
 
