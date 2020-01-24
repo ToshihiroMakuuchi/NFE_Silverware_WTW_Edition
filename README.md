@@ -53,19 +53,19 @@ https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
 * エアモード出力:5% → 4%
 * バッテリーボルト:4.20 → 4.35
 
-<p>---【 Silverware/src/config.h 】---
-#define BWHOOP
-#define MAX_RATE 1000.0
-#define MAX_RATEYAW 610.0
-#define ACRO_EXPO_ROLL 0.25
-#define ACRO_EXPO_PITCH 0.25
-#define ACRO_EXPO_YAW 0.38
-#define ANGLE_EXPO_ROLL 0.15
-#define ANGLE_EXPO_PITCH 0.15
-#define ANGLE_EXPO_YAW 0.28
-#define LEVEL_MAX_ANGLE 73.0f
-#define RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND
-#define IDLE_THR 0.04f
-#define ACTUAL_BATTERY_VOLTAGE 4.35
-#define REPORTED_TELEMETRY_VOLTAGE 4.35</p>
+---【 Silverware/src/config.h 】---  
+#define BWHOOP  
+#define MAX_RATE 1000.0  
+#define MAX_RATEYAW 610.0  
+#define ACRO_EXPO_ROLL 0.25  
+#define ACRO_EXPO_PITCH 0.25  
+#define ACRO_EXPO_YAW 0.38  
+#define ANGLE_EXPO_ROLL 0.15  
+#define ANGLE_EXPO_PITCH 0.15  
+#define ANGLE_EXPO_YAW 0.28  
+#define LEVEL_MAX_ANGLE 73.0f  
+#define RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND  
+#define IDLE_THR 0.04f  
+#define ACTUAL_BATTERY_VOLTAGE 4.35  
+#define REPORTED_TELEMETRY_VOLTAGE 4.35  
 
