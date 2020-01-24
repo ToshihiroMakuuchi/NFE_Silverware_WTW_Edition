@@ -27,6 +27,7 @@ https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
 
 ## パラメータについて (config.h)
 
+　---【WTW Edition Ver2.0】---
 * ベース設定:Alienwhoop_ZERO → BWOOP
 * レート(ロール&ピッチ):860 → 1000
 * レート(ヨー):500 → 610
