@@ -37,22 +37,34 @@ https://youtu.be/FCqBhdlICu4
 https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
 
 
-ーーーーーーーーーーーーーーーーーーーーー
+### パラメータについて (config.h)
 
-SilverVISE_README.md
+ベース設定:Alienwhoop_ZERO → BWOOP
+レート(ロール&ピッチ):860 → 1000
+レート(ヨー):500 → 610
+アクロEXPO(ロール): 0.80 → 0.25
+アクロEXPO(ピッチ): 0.80 → 0.25
+アクロEXPO(ヨー): 0.60 → 0.38
+アングルEXPO(ロール): 0.55 → 0.15
+アングルEXPO(ピッチ): 0.0 → 0.15
+アングルEXPO(ヨー): 0.55 → 0.28
+アングルリミット:65度 → 73度
+送信プロトコル:RX_SBUS → RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND
+エアモード出力:5% → 4%
+バッテリーボルト:4.20 → 4.35
 
-#define MY_QUAD_NAME "ARMR65" //大文字英数6文字制限となります。
-
-#define MY_QUAD_ID 111 //0～255まで変更可。BluetoothのMACアドレス変更に依存。そのエリアに複数 //のSilverware機体があり、SilverVISE利用している場合には固有IDを別途 //割り当てするのが良さそうです。
-
-#define MY_QUAD_MODEL 0x52 //default 0x51 //デフォルトの0x51は青色B-03、オレンジに変更する場合は0x52。
-
-#define TX_POWER_GENERAL 5 //default:3
-
-#define TX_POWER_ON_TLM 4 //default:0
-
-//#define USE_ALL_BLE_CHANNELS //default:CommentOut
-
-//TX_POWER_GENERAL、およびON_TLMはなるべく低い値が適切とされます。 //Bluetooth信号が正常に取得できない場合、スロットルON時に切断されたり //フラップされるような場合には、これらの値を変更します。GENERALは奇数、 //ON_TLMは偶数とし、GENERAL＞ON_TLMでなければなりませんが、奇数偶数の //部分については最適な数値が導き出せないようであれば、こだわらずに値を //探してください。 //今回Armor65 Liteでは上記数値が最適値となりました。これはAndroid端末にも //依存しますので、あくまでも参考値となりますのでご承知おきください。
-
-#define BLE_QUAD_NUMBER 15 //SilverVISEに同時に複数機を表示させる場合、この値を可変させユニークID //としてください。
+---【 Silverware/src/config.h 】---
+#define BWHOOP
+#define MAX_RATE 1000.0
+#define MAX_RATEYAW 610.0
+#define ACRO_EXPO_ROLL 0.25
+#define ACRO_EXPO_PITCH 0.25
+#define ACRO_EXPO_YAW 0.38
+#define ANGLE_EXPO_ROLL 0.15
+#define ANGLE_EXPO_PITCH 0.15
+#define ANGLE_EXPO_YAW 0.28
+#define LEVEL_MAX_ANGLE 73.0f
+#define RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND
+#define IDLE_THR 0.04f
+#define ACTUAL_BATTERY_VOLTAGE 4.35
+#define REPORTED_TELEMETRY_VOLTAGE 4.35
