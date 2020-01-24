@@ -23,7 +23,7 @@ WTW (Wednesday Tokyo Whoopers) の有志の皆様のご協力で、NFE_Silverwar
 テスト飛行に協力いただきました、WTW参加の皆様に感謝致します。
  * Julyさん、増谷さん、松元さん、ジセイさん、深海さん、山口さん、Moccaさん、陰山さん
 
-その時の様子はこちら
+その時の様子はこちら  
 https://youtu.be/FCqBhdlICu4
 
 
@@ -33,7 +33,7 @@ https://youtu.be/FCqBhdlICu4
 
 ## ファームウェアダウンロード (Firmware Download)
 
-最新ファームウェアのダウンロードは【Release】タブへ移動してください。
+最新ファームウェアのダウンロードは【Release】タブへ移動してください。  
 https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
 
 
