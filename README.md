@@ -56,9 +56,7 @@ https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
 ---【 Silverware/src/config.h 】---
 
 #define BWHOOP
-
 #define MAX_RATE 1000.0
-
 #define MAX_RATEYAW 610.0
 
 #define ACRO_EXPO_ROLL 0.25
