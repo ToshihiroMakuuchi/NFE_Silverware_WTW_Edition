@@ -39,32 +39,47 @@ https://github.com/ToshihiroMakuuchi/NFE_Silverware_WTW_Edition/releases
 
 ### パラメータについて (config.h)
 
-ベース設定:Alienwhoop_ZERO → BWOOP
-レート(ロール&ピッチ):860 → 1000
-レート(ヨー):500 → 610
-アクロEXPO(ロール): 0.80 → 0.25
-アクロEXPO(ピッチ): 0.80 → 0.25
-アクロEXPO(ヨー): 0.60 → 0.38
-アングルEXPO(ロール): 0.55 → 0.15
-アングルEXPO(ピッチ): 0.0 → 0.15
-アングルEXPO(ヨー): 0.55 → 0.28
-アングルリミット:65度 → 73度
-送信プロトコル:RX_SBUS → RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND
-エアモード出力:5% → 4%
-バッテリーボルト:4.20 → 4.35
+* ベース設定:Alienwhoop_ZERO → BWOOP
+* レート(ロール&ピッチ):860 → 1000
+* レート(ヨー):500 → 610
+* アクロEXPO(ロール): 0.80 → 0.25
+* アクロEXPO(ピッチ): 0.80 → 0.25
+* アクロEXPO(ヨー): 0.60 → 0.38
+* アングルEXPO(ロール): 0.55 → 0.15
+* アングルEXPO(ピッチ): 0.0 → 0.15
+* アングルEXPO(ヨー): 0.55 → 0.28
+* アングルリミット:65度 → 73度
+* 送信プロトコル:RX_SBUS → RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND
+* エアモード出力:5% → 4%
+* バッテリーボルト:4.20 → 4.35
 
 ---【 Silverware/src/config.h 】---
+
 #define BWHOOP
+
 #define MAX_RATE 1000.0
+
 #define MAX_RATEYAW 610.0
+
 #define ACRO_EXPO_ROLL 0.25
+
 #define ACRO_EXPO_PITCH 0.25
+
 #define ACRO_EXPO_YAW 0.38
+
 #define ANGLE_EXPO_ROLL 0.15
+
 #define ANGLE_EXPO_PITCH 0.15
+
 #define ANGLE_EXPO_YAW 0.28
+
 #define LEVEL_MAX_ANGLE 73.0f
+
 #define RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND
+
 #define IDLE_THR 0.04f
+
 #define ACTUAL_BATTERY_VOLTAGE 4.35
+
 #define REPORTED_TELEMETRY_VOLTAGE 4.35
+
