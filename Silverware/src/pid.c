@@ -63,12 +63,18 @@ float stickTransitionProfileB[3]  = { 0.3 , 0.3 , 0.0};           //keep values 
 
 //************************************PIDS****************************************
 
+//BETAFPV Beta65S Lite V2.0 (f042_1s_bayang)
+//                         ROLL       PITCH     YAW
+//float pidkp[PIDNUMBER] = {14.4e-2 , 14.4e-2 , 2.4e-1 };
+//float pidki[PIDNUMBER] = { 14e-1 , 14e-1 , 14e-1 };
+//float pidkd[PIDNUMBER] = { 5.7e-1 , 5.7e-1 , 0.5e-1 };
+
 
 //6mm & 7mm Abduction Pids for whoops (Team Alienwhoop)- set filtering ALIENWHOOP_ZERO_FILTERING or default beta filters
 //                         ROLL       PITCH     YAW
-float pidkp[PIDNUMBER] = {21.5e-2 , 21.5e-2  , 10.5e-1 }; 
+float pidkp[PIDNUMBER] = { 20.0e-2 , 20.0e-2  , 10.5e-1 }; 
 float pidki[PIDNUMBER] = { 14e-1  , 15e-1 , 15e-1 };	
-float pidkd[PIDNUMBER] = { 7.4e-1 , 7.4e-1  , 5.5e-1 };
+float pidkd[PIDNUMBER] = { 7.1e-1 , 7.1e-1  , 5.1e-1 };
 
 
 //BOSS 7 with 716 motors and 46mm Props - set filtering to BETA_FILTERING and adjust pass 1 and pass 2 for KALMAN_GYRO both to 70hz, set DTERM_LPF_2ND_HZ to 120hz, disable motor filtering
